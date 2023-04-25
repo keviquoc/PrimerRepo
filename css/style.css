@@ -1,0 +1,9 @@
+.img-fluid {
+    display: block;
+    margin: auto;
+}
+
+.row {
+    justify-content: space-evenly;
+}
+

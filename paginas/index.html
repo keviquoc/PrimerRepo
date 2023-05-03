@@ -38,6 +38,9 @@
                             <a class="nav-link" target="_blank" href="https://linktr.ee/rusticrestaurante">Sedes &
                                 Reservas</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="../paginas/nodejs.html">Acerca de Node JS</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -93,8 +96,27 @@
         </section>
 
         <br><br><br>
-        <button onclick="saludo()" class="btn btn-primary" style="position: absolute; right: 200px;">Recibe un
-            Saludo</button>
+        <button type="button" class="btn btn-primary" style="position: absolute; right: 200px;"
+            data-bs-toggle="modal" data-bs-target="#staticBackdrop">Un Saludo</button>
+
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div id="saludoModal" class="modal-body">
+                        
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button onclick="saludo()" type="button" class="btn btn-primary">Recibe El Saludo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
     <br><br><br><br><br>

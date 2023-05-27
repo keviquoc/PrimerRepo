@@ -7,3 +7,14 @@
     justify-content: space-evenly;
 }
 
+h1{
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+.btnP {
+    margin-left: 50%;
+}

@@ -18,3 +18,17 @@ a {
 .btnP {
     margin-left: 50%;
 }
+
+body{
+    background: url(../img/Fondo.png);
+    margin: auto;
+    display: block;
+    background-position: center;
+    background-color:peachpuff
+}
+
+section p {
+    color: black;
+    border-color: white;
+    border: 5px;
+}
